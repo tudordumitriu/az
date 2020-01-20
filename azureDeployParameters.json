@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "AZExtensive2"
+        },
+        "dnsPrefix": {
+            "value": "azextensive2"
+        },
+        "linuxAdminUsername": {
+            "value": "tudor"
+        },
+        "sshRSAPublicKey": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIBp6jAWrdPNo60odaDZkNuieLIxuUi7YaLO1K5tjBMFO2Y9Yq7MAprV9N3q6hyycahRxJbKbxi6uGX4YFpQiodJNm2hLDjeF7f+Wbfto+BP6BBK90F5tYZbqm7Zsddqc06zJFIO0MpGyV6VPMWAtJ74+iM0mpvfjX/OdoTEXcsvY7huKtg6zEoWG9gDFqxeuihLQmH0f/rZalJHDQsprUKxylKKS7plYTtJOHpJOeqdkAh8zS2jYQDXE9i8F+3v+ohkcDiG2MluU1VP1Lq/7woxry3trlQtGuuq6O7fJegOkBORorYtRnGiOZ1J3sMG12laLE12ly34z2NsYl9qon tudor@TUDOR"
+        },
+        "servicePrincipalClientId": {
+            "value": "e7892b07-ba77-4fdf-bd83-8c362493445e"
+        },
+        "servicePrincipalClientSecret": {
+            "value": "2fb8cdc5-0835-4fbf-bace-a8da7360488c"
+        }
+    }
+}
